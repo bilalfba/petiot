@@ -59,11 +59,10 @@ def sensor():
 #define a function for controlling servo
 def servo():
     #pin set up for servo 
-    GPIO.setup(11, GPIO.OUT)
+    #GPIO.setup(11, GPIO.OUT)
     pwm = GPIO.PWM(11, 50)
     left_position = 0.40
     right_position = 2.5
-    middle_position = (right_position - left_position) / 2 + left_position
     positionList = [left_position, right_position, left_position]
     ms_per_cycle = 1000 / 50
     for i in range(1):
