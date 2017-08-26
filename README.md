@@ -10,3 +10,6 @@ To configure PubNub
 2. On web browser, go to http://www.pubnub.com/console/
 3. Type a channel name into the Channel field, enter your publish key into publish key and subscribe key at subscribe key
 4. Click Subscribe
+
+Check out a demo at 
+https://bilalfba.github.io/petiot/
